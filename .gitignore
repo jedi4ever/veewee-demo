@@ -1,0 +1,11 @@
+.DS_Store
+.bundle
+gems/*
+iso/*
+tmp/*
+boxes/*
+pkg/*
+*.box
+*.ova
+.vagrant
+virtualfloppy.vfd
