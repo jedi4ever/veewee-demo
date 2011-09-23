@@ -17,7 +17,5 @@
 
 Note
 
-1. there is currently a bug that mangles the output
-  use -d to at least get some output :)
-2. kvm currently only works over nat (will be fixed soon)
-3. the templates need to be rewritten (see good examples at ubuntu-10.10-amd64 or ubuntu-10.04.3-amd64
+1. kvm currently only works over nat (will be fixed soon)
+2. the templates need to be rewritten (ubuntu-10.10-amd64 or ubuntu-10.04.3-amd64 are already converted)

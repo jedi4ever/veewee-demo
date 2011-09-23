@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/geemus/fog.git
-  revision: e1f5bfda2752053ebb2e56c00fe508aa239d338d
+  revision: ce9a26e34402dbebf236286853924e8d75e961c5
   branch: master
   specs:
     fog (0.11.0)
@@ -14,19 +14,25 @@ GIT
       nokogiri (~> 1.5.0)
       ruby-hmac
 
-PATH
-  remote: /Users/patrick/imac/fission
+GIT
+  remote: git://github.com/jedi4ever/fission.git
+  revision: 47783d4b584507b3f1313e1981b06d0e3cda14e3
+  branch: enhance_use_as_lib
   specs:
-    fission (0.3.0.beta.1)
+    fission (0.4.0a)
       CFPropertyList (~> 2.0.17)
 
-PATH
-  remote: /Users/patrick/imac/ruby-vnc
+GIT
+  remote: git://github.com/jedi4ever/ruby-vnc.git
+  revision: 09ec51f6d0d99b8ed2bdc7258add8f0c1540a107
+  branch: master
   specs:
     ruby-vnc (1.0.1)
 
-PATH
-  remote: /Users/patrick/imac/veewee
+GIT
+  remote: git://github.com/jedi4ever/veewee.git
+  revision: cd37b9af5dbbfc643a02724a6bbc6bb3dc2ad99b
+  branch: veewee03
   specs:
     veewee (0.3.0)
       ansi (~> 1.3.0)
@@ -107,7 +113,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  fission!
+  fission (~> 0.4.0a)!
   fog!
   ruby-libvirt
   ruby-vnc!
