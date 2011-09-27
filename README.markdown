@@ -23,6 +23,7 @@ Note
 
 some additional flags can be passed to the build command
 
+<pre>
 Usage:
   veewee kvm build [TEMPLATE_NAME] [BOX_NAME]
 
@@ -35,3 +36,4 @@ Options:
   -e, [--postinstall-exclude=one two three]  # patterns of postinstall filenames to exclude
 
 Build box
+</pre>
