@@ -1,11 +1,19 @@
 GIT
-  remote: git://github.com/geemus/fog.git
-  revision: 50b7768d04ccb7292b509b46a8ebcec729d934aa
-  branch: master
+  remote: git://github.com/jedi4ever/fission.git
+  revision: 3a495d2de35666a938be2bc57de3d5156cdf76b2
+  branch: enhance_use_as_lib
+  specs:
+    fission (0.4.0a)
+      CFPropertyList (~> 2.0.17)
+
+GIT
+  remote: git://github.com/jedi4ever/fog.git
+  revision: 01f97253e6f4a72ea775557c8fc114d97455d080
+  branch: exconversion
   specs:
     fog (0.11.0)
       builder
-      excon (~> 0.7.2)
+      excon (~> 0.6.6)
       formatador (~> 0.2.0)
       mime-types
       multi_json (~> 1.0.3)
@@ -15,24 +23,14 @@ GIT
       ruby-hmac
 
 GIT
-  remote: git://github.com/jedi4ever/fission.git
-  revision: 47783d4b584507b3f1313e1981b06d0e3cda14e3
-  branch: enhance_use_as_lib
-  specs:
-    fission (0.4.0a)
-      CFPropertyList (~> 2.0.17)
-
-GIT
   remote: git://github.com/jedi4ever/ruby-vnc.git
   revision: f4c1ebc3ce02086505d7e92c9bb526a1130f8740
   branch: master
   specs:
     ruby-vnc (1.0.1)
 
-GIT
-  remote: git://github.com/jedi4ever/veewee.git
-  revision: e3355dba0db49b1bd174efcdfa442350fda02644
-  branch: veewee03
+PATH
+  remote: /Users/patrick/imac/veewee
   specs:
     veewee (0.3.0)
       ansi (~> 1.3.0)
@@ -64,7 +62,7 @@ GEM
       term-ansicolor (>= 1.0.6)
     diff-lcs (1.1.3)
     erubis (2.7.0)
-    excon (0.7.2)
+    excon (0.6.6)
     ffi (1.0.9)
     formatador (0.2.1)
     gherkin (2.4.21)
