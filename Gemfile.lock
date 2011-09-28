@@ -31,7 +31,7 @@ GIT
 
 GIT
   remote: git://github.com/jedi4ever/veewee.git
-  revision: 2b7fcb398fbac94d4f48e4cdf630d4c821c89211
+  revision: fab0a4ce4dc96994283205e63e3e3b18c436db0c
   branch: veewee03
   specs:
     veewee (0.3.0)
