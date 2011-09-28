@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem "fog", :git => 'git://github.com/jedi4ever/fog.git',:branch => "exconversion"
+gem "fog", :git => 'git://github.com/geemus/fog.git',:branch => "master"
 #gem 'fog', :path => "/Users/patrick/imac/fog"
 
 gem 'vagrant', "~> 0.8.1"
