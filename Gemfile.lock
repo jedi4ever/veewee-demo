@@ -29,8 +29,10 @@ GIT
   specs:
     ruby-vnc (1.0.1)
 
-PATH
-  remote: /Users/patrick/imac/veewee
+GIT
+  remote: git://github.com/jedi4ever/veewee.git
+  revision: 2b7fcb398fbac94d4f48e4cdf630d4c821c89211
+  branch: veewee03
   specs:
     veewee (0.3.0)
       ansi (~> 1.3.0)
