@@ -15,14 +15,6 @@ GIT
       ruby-hmac
 
 GIT
-  remote: git://github.com/jedi4ever/fission.git
-  revision: 3a495d2de35666a938be2bc57de3d5156cdf76b2
-  branch: enhance_use_as_lib
-  specs:
-    fission (0.4.0a)
-      CFPropertyList (~> 2.0.17)
-
-GIT
   remote: git://github.com/jedi4ever/ruby-vnc.git
   revision: f4c1ebc3ce02086505d7e92c9bb526a1130f8740
   branch: master
@@ -31,7 +23,7 @@ GIT
 
 GIT
   remote: git://github.com/jedi4ever/veewee.git
-  revision: fab0a4ce4dc96994283205e63e3e3b18c436db0c
+  revision: 790db8b1555cd9ec7883fdea6420ef70e231717a
   branch: veewee03
   specs:
     veewee (0.3.0)
@@ -45,6 +37,12 @@ GIT
       rspec (~> 2.5.0)
       ruby-vnc (~> 1.0.0)
       thor (~> 0.14.6)
+
+PATH
+  remote: /Users/patrick/imac/fission
+  specs:
+    fission (0.4.0a)
+      CFPropertyList (~> 2.0.17)
 
 GEM
   remote: http://rubygems.org/
@@ -113,7 +111,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  fission (~> 0.4.0a)!
+  fission!
   fog!
   ruby-libvirt
   ruby-vnc!
