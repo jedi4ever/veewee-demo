@@ -15,6 +15,14 @@ GIT
       ruby-hmac
 
 GIT
+  remote: git://github.com/jedi4ever/fission.git
+  revision: c7db61e84c77677b7ed591f1c0fe81e52e980fef
+  branch: enhance_use_as_lib
+  specs:
+    fission (0.4.0a)
+      CFPropertyList (~> 2.0.17)
+
+GIT
   remote: git://github.com/jedi4ever/ruby-vnc.git
   revision: f4c1ebc3ce02086505d7e92c9bb526a1130f8740
   branch: master
@@ -37,12 +45,6 @@ GIT
       rspec (~> 2.5.0)
       ruby-vnc (~> 1.0.0)
       thor (~> 0.14.6)
-
-PATH
-  remote: /Users/patrick/imac/fission
-  specs:
-    fission (0.4.0a)
-      CFPropertyList (~> 2.0.17)
 
 GEM
   remote: http://rubygems.org/
@@ -111,7 +113,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  fission!
+  fission (~> 0.4.0a)!
   fog!
   ruby-libvirt
   ruby-vnc!
